@@ -16,7 +16,7 @@ Includes:
 * Deploy. I used **surge.sh** installed via Command Line, confirm all information as it's built automatically but made sure to add ```/build``` to the path so that it knows to serve only the built project files, and not the source files.
 * Site is live at URL given by Surge..
 
-* **Added this line to package.json, under “scripts”: ```"deploy": "yarn run build && surge -p build -d your-domain.surge.sh"``` to make repeat deploys easier by simply running ```build```
+* **Added this line to package.json, under “scripts”: ```"deploy": "yarn run build && surge -p build -d your-domain.surge.sh"``` to make repeat deploys easier by simply running ```build```**
 
 ## Writing a single-file React.js app -> singlefile-contact directory
 
@@ -24,10 +24,12 @@ Includes:
 
 #### file: index.js 
 * Create basic html page with empty div id: react-app
-* Create js file where React.createElement makes a contact list and generates an element and its corresponding content using this template from th documentation: ``` createElement(string/ReactClass type, [object props], [children ...]) -> ReactElement -> Example: React.createElement('h1', {}, "Contacts")``` (NOTE: CLASS)
+* Create js file where React.createElement makes a contact list and generates an element and its corresponding content using this template from th documentation: ``` createElement(string/ReactClass type, [object props], [children ...]) -> ReactElement```
+```-> Example: React.createElement('h1', {}, "Contacts")``` (NOTE: CLASS)
 
-* **This shows what React does at it’s most basic, React is a tool for rendering HTML with JavaScript. ```ReactDOM.render``` takes a ReactElement object describing what to render, adding the result to the given DOM node.**
+* This shows what React does at it’s most basic, React is a tool for rendering HTML with JavaScript. ```ReactDOM.render``` takes a ReactElement object describing what to render, adding the result to the given DOM node.
 
 ## Refactoring my Contact List app with a component -> contactlist-refactor
 In this directory I took what I did manually in the originally app and refactored it to learn how to use components and define objects and props with React.
 
+**PropTypes** 
