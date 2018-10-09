@@ -1,4 +1,4 @@
-# A collection of apps, created to learn the basics of React and more!
+A collection of apps, created to learn the basics of React and more!
 
 ## Understanding how to initialize a new React app. -> simplereact directory
 
