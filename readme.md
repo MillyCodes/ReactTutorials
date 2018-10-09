@@ -37,7 +37,9 @@ In this directory I took what I did manually in the originally app and refactore
 
 **PropTypes**
 
-## Following along to [Learn React - 2018 React Tutorial with Examples by Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+## Following along to Learn React by Mosh -> counter-app directory
+
+Following along to [Learn React - 2018 React Tutorial with Examples by Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0) -> counter-app directory
 
 ### Tuesday, Oct 1: Completed introduction up to 1:13:30
 
