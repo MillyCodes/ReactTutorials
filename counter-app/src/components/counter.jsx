@@ -10,11 +10,9 @@ class Counter extends Component {
     //     this.handleIncrement = this.handleIncrement.bind(this);
     // }
 
-    handleIncrement = () => {
-        // console.log("Increment Clicked", this);
-        //object.method() --returns reference to the specific object.
-        //function() ---stand alone func refers to specific state, since no specific reference, but if strict mode on it will return undefined
-        // use BIND! or best use ARROW function to implicitly bind!
+    handleIncrement = product => {
+        console.log(product);
+        //best use ARROW function to implicitly bind!
         this.setState({ count: this.state.count + 1 });
     };
 
@@ -25,7 +23,7 @@ class Counter extends Component {
                     {this.formatCount()}
                 </span>
                 <button
-                    onClick={this.handleIncrement}
+                    onClick={() => this.handleIncrement({ id: 1 })}
                     className="btn btn-secondary btn-sm"
                 >
                     Increment
