@@ -1,3 +1,5 @@
+//LEFT OF AT 1:24:34
+
 import React, { Component } from "react";
 import Counter from "./counter";
 
