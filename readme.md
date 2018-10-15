@@ -41,7 +41,7 @@ In this directory I took what I did manually in the originally app and refactore
 
 Following along to [Learn React - 2018 React Tutorial with Examples by Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0) -> counter-app directory
 
-### Tuesday, Oct 1: Completed introduction up to 1:13:30
+### Updated Monday, Oct 15th.
 
 Topics Covered so far:
 
@@ -63,7 +63,19 @@ Topics Covered so far:
 -   1:03:56 Binding Event Handlers
 -   1:08:34 Updating the State
 -   1:10:51 What Happens When State Changes
-
+-   1:12:58 Passing Event Arguments
+-   1:17:31 Composing Components
+-   1:21:18 Passing Data to Components
+-   1:24:31 Passing Children
+-   1:27:44 Debugging React Apps
+-   1:31:55 Props vs State
+-   1:34:22 Raising and Handling Events
+-   1:39:16 Updating the State
+-   1:43:57 Single Source of Truth
+-   1:47:55 Removing the Local State
+-   1:54:44 Multiple Components in Sync
+-   2:00:39 Lifting the State Up
+-   2:06:18 Stateless Functional Components
 
 #### Realtime Photo Feed from Tutorial
 
@@ -80,9 +92,9 @@ Demo of a realtime photo feed made with React, Cloudinary and Pusher. Tutorial: 
 
 ###### Built With
 
-- [React](https://reactjs.org) - For creating the application frontend
-- [Cloudinary](https://cloudinary.com) - Image hosting and CDN
-- [Pusher Channels](https://pusher.com/docs) - Realtime features
+-   [React](https://reactjs.org) - For creating the application frontend
+-   [Cloudinary](https://cloudinary.com) - Image hosting and CDN
+-   [Pusher Channels](https://pusher.com/docs) - Realtime features
 
 ### Licence
 
