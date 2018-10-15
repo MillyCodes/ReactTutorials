@@ -1,4 +1,4 @@
-//LEFT OF AT 1:24:34
+//LEF T OF AT 1:24:34
 
 import React, { Component } from "react";
 import Counter from "./counter";
@@ -13,14 +13,16 @@ class Counters extends Component {
         ]
     };
 
+    handleDelete = (counterId) => {
+        const counters = this.state.counters.filter(c => c.id !== counterId);
+        this.setState({ counters });
+    };
+
     render() {
         return (
             <div>
                 {this.state.counters.map(counter => (
-                    <Counter key={counter.id} value={counter.value}>
-                        <h1>hi</h1>
-                    </Counter>
-                ))}
+                    <Counter key={counter.id} onDelete={this.handleDelete} value={counter.value} id={counter.id} />))}
             </div>
         );
     }
