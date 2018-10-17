@@ -1,4 +1,3 @@
-// left of 2:20 milly
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import "./App.css";
