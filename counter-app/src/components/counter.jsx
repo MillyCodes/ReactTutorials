@@ -36,12 +36,12 @@ class Counter extends Component {
                 >
                     -
                 </button>
-                {/* <button
+                <button
                     onClick={() => this.props.onDelete(this.props.counter.id)}
                     className="btn btn-danger btn-sm m-2"
                 >
                     Delete
-                </button> */}
+                </button>
             </div>
         );
     }

@@ -64,7 +64,7 @@ class App extends Component {
                 />
                 <main className="container">
                     <Counters
-                        counters={this.state.counters.filter(c => c.value > -1)}
+                        counters={this.state.counters}
                         onReset={this.handleReset}
                         onIncrement={this.handleIncrement}
                         onDelete={this.handleDelete}
