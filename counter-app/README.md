@@ -1,6 +1,8 @@
 ### This app was created when following along to [Learn React - 2018 React Tutorial with Examples by Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 
-### Updated Oct 15th.
+More recently trying to make decrease and delete work on the same button. Working on logic for this.
+
+### Completed Oct 15th.
 Topics Covered so far:
 * 00:00 Introduction
 * 01:14 What is React
