@@ -46,7 +46,7 @@ class App extends Component {
         });
         this.setState({ counters });
     };
-    //handle reset and decrease in same button.. you can do it!
+    //handle reset and decrease in same button.. you can do it! Have some faith.
     handleDelete = counterId => {
         const counters = this.state.counters.filter(c => c.id !== counterId);
         this.setState({ counters });
