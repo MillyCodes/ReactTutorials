@@ -15,6 +15,7 @@ class App extends Component {
 
     constructor(props) {
         super(props);
+        console.log(props);
         console.log("App - Constructor");
     }
 
@@ -46,7 +47,7 @@ class App extends Component {
         });
         this.setState({ counters });
     };
-    //handle reset and decrease in same button.. you can do it! Have some faith.
+    //handle reset and decrease in same button.. you can do it! Have some faith.//
     handleDelete = counterId => {
         const counters = this.state.counters.filter(c => c.id !== counterId);
         this.setState({ counters });
