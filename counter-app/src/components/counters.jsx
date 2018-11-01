@@ -10,7 +10,8 @@ class Counters extends Component {
             counters,
             onDelete,
             onIncrement,
-            onDecrement
+            onDecrement //can this be one with the delete button?
+            // how can i modify this in a smart way?
         } = this.props;
 
         return (
